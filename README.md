@@ -13,7 +13,7 @@ git clone https://github.com/Ehllay/Figs
 ## List of avatars:
 
 ### Synth
-
+![Gif](/Synth/gallery/gif1.gif)
 Features (so far):
 - Blinking eyes
 - Tail with physics
