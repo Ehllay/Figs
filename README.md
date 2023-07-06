@@ -18,6 +18,7 @@ Features (so far):
 - Blinking eyes
 - Tail with physics
 - Neofetch
+- [Dracula](https://github.com/dracula/dracula-theme) colors
 
 ### Gallery:
 ![Normal](/Synth/gallery/image1.png)
