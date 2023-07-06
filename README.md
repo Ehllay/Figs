@@ -17,7 +17,7 @@ git clone https://github.com/Ehllay/Figs
 Features (so far):
 - Blinking eyes
 - Tail with physics
-- [Neofetch](https://es.wikipedia.org/wiki/Neofetch)
+- [Neofetch](https://es.wikipedia.org/wiki/Neofetch) (I use Arch BTW)
 - [Dracula](https://github.com/dracula/dracula-theme) colors
 
 ### Gallery:
