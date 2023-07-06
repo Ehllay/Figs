@@ -11,7 +11,7 @@ Features (so far):
 - Neofetch
 
 ### Gallery:
-![Normal](/Synth/image1.png)
-![Neofetch](/Synth/image2.png)
-![Back](/Synth/image3.png)
-![Darkness](/Synth/image4.png)
+![Normal](/Synth/gallery/image1.png)
+![Neofetch](/Synth/gallery/image2.png)
+![Back](/Synth/gallery/image3.png)
+![Darkness](/Synth/gallery/image4.png)
