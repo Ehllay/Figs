@@ -9,4 +9,9 @@ Features (so far):
 - Blinking eyes
 - Tail with physics
 - Neofetch
-  
+
+### Gallery:
+![Normal](/Synth/image1.png)
+![Neofetch](/Synth/image2.png)
+![Back](/Synth/image3.png)
+![Darkness](/Synth/image4.png)
