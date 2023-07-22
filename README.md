@@ -16,7 +16,7 @@ git clone https://github.com/Ehllay/Figs
 ![Gif](/Synth/gallery/gif1.gif)
 
 Features (so far):
-- Blinking eyes
+- Blinking eyes (Now they are closed when sleeping in a bed!)
 - Tail with physics
 - [Neofetch](https://es.wikipedia.org/wiki/Neofetch) (I use Arch BTW)
 - [Dracula](https://github.com/dracula/dracula-theme) colors
