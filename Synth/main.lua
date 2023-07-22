@@ -87,6 +87,7 @@ end
 -- blink vars
 time = 1
 nextBlink = 0
+sleeping = false
 
 neofetching = false --neofetch state var
 neofetchUV = 24/64  -- neofetch UV
@@ -177,15 +178,26 @@ function events.tick()
         16/64, -- closed eyes
     }
     
+    if player:getEyeHeight() <= 0.4 then
+        sleeping = true
+    else
+        sleeping = false
+        
+    end
+
     if time > 4 and neofetching == false then
         time = 1
         nextBlink = world.getTime() + math.random(15,100)
     end
 
-    if neofetching == false then
+    if neofetching == false and sleeping == false then
         models.main_model.Head.Face:setUV(frames[time], -78)
+
+    elseif sleeping == true and neofetching == false then
+        models.main_model.Head.Face:setUV(frames[3], -78)
     else
         models.main_model.Head.Face:setUV(neofetchUV, -78)
+        
     end
 
     if nextBlink < world.getTime() then
