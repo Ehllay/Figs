@@ -1,4 +1,13 @@
 vanilla_model.PLAYER:setVisible(false)
+
+function events.ENTITY_INIT()
+playerName = player:getName()
+
+--changes name to purple
+nameplate.ALL:setText('[{"color":"#bd93f9","text":' .. playerName .. '}]')
+  
+end
+
 -- config --
 local config = {
     modelPart = models.main_model.Body.Tail1, -- model part of tail
